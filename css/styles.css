@@ -1,0 +1,186 @@
+/*** html Selectors ***/
+
+body {
+  font-family: Fira Sans Condensed, sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Fira Sans Condensed, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*** Headings ***/
+
+.big-heading {
+  font-family:Fira Sans Condensed, sans-serif; 
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/** Container **/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/** Sections **/
+
+.colored-section {
+  background-color: #06113C;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/*** Navigation Bar ***/
+
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Ubuntu, sans-serif;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0 18px;
+  font-family: Fira Sans Condensed, sans-serif;
+}
+
+/*** Title Section ***/
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+#unreal {
+  color: #FF8C32;
+}
+
+.title-image {
+  height: 85%;
+  transform: rotate(-5deg);
+  position: absolute;
+}
+
+.dwn-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/** Features **/
+
+#features {
+  font-family: Ubuntu, sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5 rem;
+  padding-top: 3%;
+}
+
+.feature-icon {
+  color: #FF8C32;
+}
+
+.feature-icon:hover {
+  color: #06113C;
+}
+
+/** Testimonials **/
+
+#testimonials {
+  background-color: #DDDDDD;
+  color: #06113C;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  margin: 20px;
+}
+
+/** Press **/
+
+#press {
+  background-color: #DDDDDD;
+  padding-bottom: 3%;
+}
+
+.press-logos {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/** Pricing **/
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.card-header {
+  background-color: #06113C;
+  color: white;
+}
+
+.btn-price {
+  background-color: #06113C;
+  color: white;
+}
+.btn-price:hover {
+  background-color: #FF8C32;
+}
+
+/** Footer **/
+
+#footer {
+  font-weight: 550;
+}
+
+.footer-icon {
+  color: #06113C;
+  margin: 20px 10px;
+}
+
+/** Media Selectors **/
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
